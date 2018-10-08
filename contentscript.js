@@ -30,7 +30,7 @@ function searchData() {
     } else {
 
       try {
-        var encrypted = value.substring(3, value.length-3);
+        var encrypted = value.trim().substring(3, value.length-3);
         chrome.storage.sync.get("secret", function(result) {
           secret = result['secret'];
           var decrypted = CryptoJS.AES.decrypt(encrypted, secret);
