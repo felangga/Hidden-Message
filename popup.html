@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hidden Message</title>
+    <link href="popup.css" rel="stylesheet">
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src="aes.js"></script>
+    <script src="main.js"></script>
+
+  </head>
+  <body>
+    <h1>Hidden Message v0.1</h1>
+    <h5>Handy toolkit to hide your message over the internet.<br/>Share your secret key to your friends, so they can open your encrypted message</h5>
+    <div role="main">
+      <label for="timeframe">Secret Key : </label>
+      <input id="inpSecret" placeholder="Insert your secret key..." style="width:50%"/>
+      <div>
+          <h2>Encrypt Text</h2>
+          <textarea id="inpEncrypt" rows=4 style="width:100%" placeholder="Type text you want to hide..."></textarea>
+          <textarea id="inpOutput" rows=4 style="width:100%" placeholder="Encrypted text here, copy and paste to comment box or post box, etc... "></textarea>
+      </div>
+    </div>
+  </body>
+</html>
