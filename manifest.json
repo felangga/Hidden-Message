@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Hidden Message",
   "description": "Handy tool to have hidden conversation with your friend, without other knowing the message if they don't have the secret key.",
-  "version": "0.0.1",
+  "version": "0.0.2",
    "browser_action": {
      "default_popup": "popup.html"
   },
